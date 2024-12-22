@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: "Barrio", system-ui;
+}
+
+header {
+    background-color: rgb(7, 32, 63);
+    color: white;
+}
+
+a {
+    color:white;
+}
+
+.nickname a {
+    text-decoration: none;
+}
+
+.nickname {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.aboutme {
+background-color: rgb(7, 32, 63);
+color: white;
+}
+
+.aboutme__container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    padding-top: 135px;
+    padding-bottom: 150px;
+    margin-top: 1px;
+}
+
+.aboutme__img img {
+    width: 516px;
+    height: 516px;
+    border-radius: 383.5px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 64px;
+    margin: 0;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 36px;
+}
+
+.aboutme__button {
+    width: 605px;
+    height: 106px;
+    background-color: rgb(217, 217, 217);
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    margin-top: 48px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.aboutme__button:hover {
+    background-color: blue;
+}
+
+.abilities {
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+}
+
+.abilities__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    gap: 58.5px;
+    padding-bottom: 150px;
+}
+
+.html__img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 5px solid;
+    border-color: rgb(217,170,144);
+}
+
+.html__img img {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.html__title {
+    font-size: 64px;
+    font-weight: 800;
+    background-color: rgb(7,32,63);
+    color: white;
+    text-align: center;
+    align-content: center;
+    height: 35%;
+}
+
+.css__img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 5px solid;
+    border-color: black;
+}
+
+.css__img img {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.css__title {
+    font-size: 64px;
+    font-weight: 800;
+    background-color: rgb(217,170,144);
+    color: white;
+    text-align: center;
+    align-content: center;
+    height: 35%;
+}
+
+.js__img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 5px solid;
+    border-color: rgb(217,170,144);
+}
+
+.js__img img {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.js__title {
+    font-size: 64px;
+    font-weight: 800;
+    background-color: rgb(7,32,63);
+    color: white;
+    text-align: center;
+    height: 35%;
+    align-content: center;
+}
+
+.abilities h1 {
+    font-weight: 800;
+    font-size: 72px;
+    padding-top: 135px;
+    color: rgb(51,51,51);
+    padding-bottom: 70px;
+    text-align: center;
+    margin: 0;
+}
+
+.projects__container {
+    background-color: rgb(7,32,63);
+    color: white;
+}
+
+.projects h1 {
+    font-size: 72px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 135px;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.projects__container {
+    padding-bottom: 150px;
+    padding-left: 167px;
+    padding-right: 155px;
+}
+
+.project {
+    display: flex;
+    gap: 126px;
+    padding-top: 70px;
+}
+
+.projects__img {
+    height: 366px;
+    width: 540px;
+}
+
+.projects__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project__description {
+    align-content: center;
+}
+
+.project__reverse {
+    flex-direction: row-reverse;
+}
+
+
+.forma__container {
+    background-color: rgb(234,222,212);
+    padding-bottom: 150px;
+}
+
+.forma__title {
+    font-size: 72px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 70px;
+}
+
+.forma {
+    background-color: white;
+    width: 759px;
+    height: 662px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    padding-left: 63px;
+    padding-right: 65px;
+    padding-top: 77px;
+}
+
+input {
+    background-color: rgb(234,222,212);
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    width: 631px;
+    height: 98px;
+}
+
+.forma__button {
+    width: 266px;
+    height: 68px;
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    background-color: rgb(234,222,212);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contacts__container {
+    background-image: url(https://s3-alpha-sig.figma.com/img/f4d8/368f/21dcf520c4acf394d42a992466a3d7f9?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ASeruO7csf-Q5m~OFN8jEU1L5jrdNa2c5VNiRAwzFStqnWtmli2FM~iueASEGp0aT1YgiLLVgLH~vqJsdVSmgfOR2NQGyrC1oFtGq8Aqb3Hj8RQCSDv~zcl-G9l-BdP2ZoDlZSGfCauglB-FSrkBxA4Gov6Os~wuBI~MxtGSzoBL07oNsjbksHrbhCWSiZ-btdCcZDQLovsWZruDKbGR~VWNRvQKmb4nssFI9OixhmxwPZTl8tVcT4q864CLwphqBpRt2iq~Nq1si~jYjrD7CnEwlI8nBQp7WjhGKb6CZJZrKva-dNSbzcZPBbkA3K9JZzDXh4iU4bjbhRaOwjs9kQ__);
+    background-size: cover;
+}
+
+.contacts__title {
+    padding-top: 135px;
+    font-size: 72px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 70px;
+    color: rgb(51,51,51);
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 180px;
+}
+
+.contact1 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(7, 32, 63);
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 112px;
+}
+
+.contact2 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(217,170,144);
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 112px;
+}
+
+.contact__button {
+    width: 299px;
+    height: 69px;
+    border-radius: 100px;
+    background-color: rgb(217, 217, 217);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: rgb(7, 32, 63);
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
