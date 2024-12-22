@@ -11,6 +11,9 @@ body {
 header {
     background-color: rgb(7, 32, 63);
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 a {
@@ -356,13 +359,19 @@ input {
 .contact__button {
     width: 299px;
     height: 69px;
-    border-radius: 100px;
+    border-radius: 80px;
     background-color: rgb(217, 217, 217);
     font-size: 40px;
     font-weight: 800;
     text-align: center;
     color: black;
     margin-top: 30px;
+    cursor: pointer;
+}
+
+.contacts__a {
+text-decoration: none;
+color: black;
 }
 
 footer {
